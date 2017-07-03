@@ -1,0 +1,142 @@
+<!DOCTIME html>
+<html>
+<head>
+</head>
+<title>Modelmaker</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+
+<body>
+<div class="header">
+  <div class="left">A <span class="slash">/</span> BASE <span class="slash">/</span> 3D viewer<i class="arrow-down"></i></div>
+  <div class="right">
+    <div class="links-block block-2">
+      <a href="#"><span class="blue-text blue-border">Visual builder</span></a>
+    </div>
+    <div class="links-block block-2">
+      <a href="#">Features</a>
+      <a href="#">Examples</a>
+      <a href="#">Plugins</a>
+      <a href="#" class="selected">Documentation</a>
+      <a href="#">Community</a>
+      <a href="#">Downloads</a>
+    </div>
+    <div class="links-block block-end">
+      <a href="#">Login</a>
+    </div>
+  </div>
+</div>
+<div class="middle">
+  <div class="left-menu">
+    <div>
+      <div class="version-select">
+        <span class="version">Version 0.5.0</span>
+        <div class="arrows">
+          <i class="arrow-up"></i>
+          <i class="arrow-down"></i>
+        </div>
+      </div>
+      <div class="search">S</div>
+      <div class="m">M</div>
+    </div>
+    <div class="toc">
+      <div class="first-level">
+        <div><i></i><a href="#">Guides</a></div>
+      </div>
+      <div class="second-level">
+        <div><i></i><a href="#">Building a Basic Scene</a></div>
+        <div><i></i><a href="#">Building a 360 Image Gallery</a></div>
+        <div><i></i><a href="#">Building with MagicaVoxel</a></div>
+        <div><i></i><a href="#">Building a Minecraft Demo</a></div>
+      </div>
+      <div class="first-level">
+        <div><i></i><a href="#">Core Api</a></div>
+      </div>
+      <div class="second-level">
+        <div><i></i><a href="#">Entity</a></div>
+        <div><i></i><a href="#">Component</a></div>
+        <div><i></i><a href="#">System</a></div>
+        <div><i></i><a href="#">Scene</a></div>
+        <div><i></i><a href="#">Animations</a></div>
+        <div><i></i><a href="#">Mixins</a></div>
+        <div><i></i><a href="#">Asset Management System</a></div>
+        <div><i></i><a href="#">Globals</a></div>
+        <div><i></i><a href="#">Utils</a></div>
+      </div>
+      <div class="first-level">
+        <div><i></i><a href="#">Components</a></div>
+      </div>
+      <div class="second-level">
+        <div><i></i><a href="#">blend-model</a></div>
+        <div><i></i><a href="#">camera</a></div>
+        <div><i></i><a href="#">collada-model</a></div>
+        <div><i></i><a href="#">cursor</a></div>
+        <div><i></i><a href="#">debug</a></div>
+        <div><i></i><a href="#">embedded</a></div>
+        <div><i></i><a href="#">fog</a></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="right-menu">
+    <div class="menu-items">
+      <a href="#" class="top">Building a Basic Scene</a>
+      <a href="#">Where to Place JavaScript Code for A-Frame</a>
+      <a href="#">Getting Entities by Querying and Traversing</a>
+      <a href="#">With .querySelector()</a>
+      <a href="#">With .querySelectorAll()</a>
+      <a href="#">Looping Over Entities from .querySelectorAll()</a>
+      <a href="#">Modifying the A-Frame Scene Graph</a>
+      <a href="#" class="selected">Creating an Entity with .createElement() <i></i></a>
+      <a href="#">Adding an Entity with .appendChild()</a>
+      <a href="#">Removing an Entity with .removeChild()</a>
+      <a href="#">Modifying an Entity</a>
+      <a href="#">Adding a Component with .setAttribute()</a>
+      <a href="#">Updating a Component with .setAttribute()</a>
+      <a href="#">Removing a Component with .removeAttribute()</a>
+      <a href="#">Events and Event Listeners</a>
+      <a href="#">Emitting an Event with .emit()</a>
+      <a href="#">Adding an Event Listener with .addEventListener()</a>
+      <a href="#">Removing an Event Listener with .remo</a>
+    </div>
+    <div class="line"></div>
+  </div>
+  <div class="centre">
+    <div class="breadcrumbs">0.5.0 > Guides</div>
+    <div class="text">
+    <h1>Building a Basic Scene</h1>
+    <p>Let's start by building a basic A-frame scene. For this, we will need a basic understanding of HTML. We will learn how to:</p>
+    <ul>
+    <li>Add 3D entities (i.e., objects) with primitives</li>
+    <li>Transform to transform entities in 3D spaces with position, rotation, scale</li>
+    <li>Add textures</li>
+    <li>Add basic interactive using animations and events</li>
+    <li>Modify the environment by tweaking lighting and adding a background</li>
+    <li>Add text</li>
+    </ul>
+    <p>Remix the Basic Guide example on Glitch.</p>
+    <p>Starting with HTML</p>
+    <p>We start out with a minimal HTML structure:</p>
+  </div>
+  <div class="code-example">
+    <div class="links">
+      <a href="#">Go to JSFiddle</a>
+      <a href="#">CopyHTML</a>
+    </div>
+    <div class="code">
+        &lta-assets&gt
+          &ltimg id="texture" src="texture.png"&gt
+        &lt/a-assets&gt
+        &lt!-- Basic box. --&gt
+        &lta-box color="tomato" depth="2" height="4" width="0.5"&gt&lt/a-box&gt
+        &lt!-- Textured box. --&gt
+        &lta-box src="#texture"&gt&lt/a-box&gt
+    </div>
+    
+  </div>
+</div>
+</div>
+
+
+</body>
+
+</html>
